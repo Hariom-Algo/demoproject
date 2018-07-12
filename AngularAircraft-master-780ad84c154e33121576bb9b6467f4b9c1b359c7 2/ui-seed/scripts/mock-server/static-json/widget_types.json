@@ -1,0 +1,34 @@
+[ {
+  "identifier" : "plan-usage",
+  "name" : "Plan Usage",
+  "requires" : [ "sbb_plan" ],
+  "sizes" : {
+    "medium" : {
+      "cols" : 2,
+      "rows" : 2
+    }
+  },
+  "type" : "SBB Usage"
+}, {
+  "identifier" : "tail-usage",
+  "name" : "Usage by Tail",
+  "requires" : [ "sbb_plan" ],
+  "sizes" : {
+    "medium" : {
+      "cols" : 2,
+      "rows" : 2
+    }
+  },
+  "type" : "SBB Usage"
+}, {
+  "identifier" : "plan-app-usage",
+  "name" : "Plan usage by Apps",
+  "requires" : [ "sbb_plan" ],
+  "sizes" : {
+    "medium" : {
+      "cols" : 2,
+      "rows" : 2
+    }
+  },
+  "type" : "SBB Usage"
+} ]

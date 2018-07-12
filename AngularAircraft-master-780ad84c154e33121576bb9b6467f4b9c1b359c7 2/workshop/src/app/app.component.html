@@ -1,0 +1,19 @@
+<ul>
+  <li (click)="clickTab($event)">Overview</li>
+  <li (click)="clickTab($event)">Amenitites</li>
+  <li (click)="clickTab($event)">Performance</li>
+  <li (click)="clickTab($event)">Images</li>
+</ul>
+<div class="data-fields">
+  <div class="overview">
+    <ul>
+      <li *ngFor="let item of fields; let i=index">
+        <label class="acft-label">{{item}}</label>
+        <a class="acft-data">{{values[i]}}</a>
+      </li>
+    </ul>
+  </div>
+  <div class="images">
+    <div><img alt="someImage" /></div>
+  </div>
+</div>

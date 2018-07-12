@@ -1,0 +1,44 @@
+<section class="hero is-fullheight is-light is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-4 is-offset-4">
+          <h1 class="title"> Some Thing </h1>
+          <div class="box">
+            <label class="label">Username</label>
+            <form [formGroup]="form"
+		    novalidate
+		    (ngSubmit)="this.onSubmit(user)">
+              <div class="login-form" formGroupName="user">
+                <p class="control has-icon has-icon-right">
+                  <input class="input"
+			   formControlName="name"
+			   type="text" placeholder="ca1">
+         <br><br>
+                  <span class="icon user"> <i class="fa fa-user"></i> </span> </p>
+                <label class="label">Password</label>
+                <p class="control has-icon has-icon-right">
+                  <input class="input password-input"
+			   formControlName="pass"
+			   type="password" placeholder="●●●●">
+                  <span class="icon user"> <i class="fa fa-lock"></i> </span> </p>
+                <hr>
+                <p class="control login">
+                  <button class="button is-success is-outlined is-large is-fullwidth"
+			  [disabled]="form.invalid"
+			  type="submit"
+			  >Login </button>
+                </p>
+                <hr>
+              </div>
+            </form>
+            <div>
+              <p>Value: {{ form.value | json }}</p>
+              <p>Validation status: {{ form.status }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

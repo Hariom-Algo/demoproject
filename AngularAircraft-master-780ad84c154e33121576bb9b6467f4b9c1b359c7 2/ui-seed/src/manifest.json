@@ -1,0 +1,35 @@
+{
+    "short_name": "Dashboard",
+    "name": "System Dashboard",
+    "start_url": ".",
+    "theme_color": "#F48C5B",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [
+	{
+            "src": "/assets/images/arinc_direct_rockwell_sm.png",
+            "type": "image/png"
+	},
+	{  
+	    "src": "/assets/images/arinc-direct-192x192.png",
+	    "sizes": "192x192",  
+	    "type": "image/png"  
+	},  
+	{  
+	    "src": "/assets/images/arinc-direct-256x256.png",
+	    "sizes": "256x256",  
+	    "type": "image/png"  
+	},  
+	{  
+	    "src": "/assets/images/arinc-direct-384x384.png",
+	    "sizes": "384x384",  
+	    "type": "image/png"  
+	},  
+	{  
+	    "src": "/assets/images/arinc-direct-384x384.png",
+	    "sizes": "512x512",  
+	    "type": "image/png"  
+	}
+    ]
+}

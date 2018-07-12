@@ -1,0 +1,64 @@
+@import '../../../css/_variables.scss';
+.modal{
+    height: 1%;
+    top: 4em;
+    background:linear-gradient(to top, #bec5cb, #6f798d);
+    .modal-background{
+      background-color:transparent;
+    }
+}
+.spinner {
+  margin: 100px auto;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+//  background-color: #333;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  -webkit-animation: color-changer  2s infinite ease-in-out;; /* Safari 4.0 - 8.0 */
+  animation: color-changer  2s infinite ease-in-out;  
+}
+
+.spinner .rect {
+  width:30px;
+  height:30px;
+  transform: skewX(-45deg);
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.spinner .rect2 {
+  width:30px;
+  height:30px;
+  transform: skewX(-45deg);
+  margin-left:2em;
+  margin-right:2em;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+
+
+}
+
+.spinner .rect3 {
+  width:30px;
+  height:30px;
+  transform: skewX(-45deg);
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes color-changer {
+    from {background-color: $primary;}
+    to {background-color: $white;}
+}
+
+/* Standard syntax */
+@keyframes color-changer {
+    from {background-color: $primary;}
+    to {background-color: $white;}
+}

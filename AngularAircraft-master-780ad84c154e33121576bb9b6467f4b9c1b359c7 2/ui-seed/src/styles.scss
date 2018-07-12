@@ -1,0 +1,137 @@
+@import "css/_typography";
+// we can slice bulma up a bit now
+@import "css/_variables";
+@import "~bulma/bulma.sass";
+@import "css/_overrides";
+
+// @import "~bulmaswatch/lux/_overrides";
+@import "~bulma-tooltip/tooltip.sass";
+@import "~bulma-calendar/calendar.sass";
+@import "~bulma-slider/slider.sass";
+@import "css/timeline.sass";
+@import "css/widget.scss";
+
+
+html,body{margin: 0; height: 100%; overflow: hidden}
+
+.loading {
+    opacity: 1;
+    position: fixed;
+    height: 1%;
+    top:4.25em;
+    width: 100%;
+    text-align: center;
+    z-index: -1;
+    transition: opacity .4s ease-out;
+    /** -------------------------- Begin Initial Loading-------------------------- **/
+    .spinner {
+      margin: 100px auto;
+      text-align: center;
+      font-size: 10px;
+    }
+    
+    .spinner > div {
+      //  background-color: #333;
+      height: 100%;
+      width: 6px;
+      display: inline-block;
+      -webkit-animation: color-changer  2s infinite ease-in-out;; /* Safari 4.0 - 8.0 */
+      animation: color-changer  2s infinite ease-in-out;  
+    }
+    
+    .spinner .rect {
+      width:30px;
+      height:30px;
+      transform: skewX(-45deg);
+      -webkit-animation-delay: 0.1s;
+      animation-delay: 0.1s;
+    }
+
+    .spinner .rect2 {
+      width:30px;
+      height:30px;
+      transform: skewX(-45deg);
+      margin-left:2em;
+      margin-right:2em;
+      -webkit-animation-delay: 0.2s;
+      animation-delay: 0.2s;
+      
+      
+    }
+    
+    .spinner .rect3 {
+      width:30px;
+      height:30px;
+      transform: skewX(-45deg);
+      -webkit-animation-delay: 0.3s;
+      animation-delay: 0.3s;
+      
+    }    
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes color-changer {
+    from {background-color: $primary;}
+    to {background-color: $white;}
+}
+
+/* Standard syntax */
+@keyframes color-changer {
+  from {background-color: $primary;}
+  to {background-color: $white;}
+}
+
+.mock-nav{
+  position:fixed;
+  width:100%
+
+}
+app-root:empty  + .loading + .mock-nav{
+  opacity: 0;
+  z-index: -1;
+  background-color: linear-gradient(to top, #bec5cb, #6f798d);
+
+}
+
+
+
+// mixin to set responsive font move somewhere else
+@mixin responsive-font($responsive, $min, $max: false, $fallback: false) {
+  $responsive-unitless: $responsive / ($responsive - $responsive + 1);
+  $dimension: if(unit($responsive) == 'vh', 'height', 'width');
+  $min-breakpoint: $min / $responsive-unitless * 100;
+  
+  @media (max-#{$dimension}: #{$min-breakpoint}) {
+    font-size: $min;
+  }
+  
+  @if $max {
+    $max-breakpoint: $max / $responsive-unitless * 100;
+    
+    @media (min-#{$dimension}: #{$max-breakpoint}) {
+      font-size: $max;
+    }
+  }
+  
+  @if $fallback {
+    font-size: $fallback;
+  }
+  
+  font-size: $responsive;
+}
+
+
+.widget-status-header{
+  display:flex;
+  justify-content:space-between;
+}
+
+//flexible container for the gridster + chart elements
+div.ngx-charts-outer{
+  max-height:200px;
+  max-width:100%;      
+  display: flex;
+  flex-direction: column;
+}
+
+

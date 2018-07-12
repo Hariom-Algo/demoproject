@@ -1,0 +1,304 @@
+{
+  "companyID" : "1",
+  "companyName" : "Honeywell",
+  "fullName" : "CA 1",
+  "suspended" : false,
+  "tailAccess" : {
+    "1" : {
+      "aircraftID" : "1",
+      "tailNumber" : "N100XA"
+    },
+    "2" : {
+      "aircraftID" : "2",
+      "tailNumber" : "N102XA"
+    },
+    "3" : {
+      "aircraftID" : "3",
+      "tailNumber" : "N101XA"
+    },
+    "4" : {
+      "aircraftID" : "4",
+      "tailNumber" : "N109XA"
+    },
+    "5" : {
+      "aircraftID" : "5",
+      "tailNumber" : "N110XA"
+    },
+    "6" : {
+      "aircraftID" : "6",
+      "tailNumber" : "N103XA"
+    },
+    "7" : {
+      "aircraftID" : "7",
+      "tailNumber" : "N104XA"
+    },
+    "11" : {
+      "aircraftID" : "11",
+      "tailNumber" : "N502XJ"
+    },
+    "12" : {
+      "aircraftID" : "12",
+      "tailNumber" : "N182AW"
+    },
+    "13" : {
+      "aircraftID" : "13",
+      "tailNumber" : "N105XA"
+    },
+    "14" : {
+      "aircraftID" : "14",
+      "tailNumber" : "N107XA"
+    },
+    "15" : {
+      "aircraftID" : "15",
+      "tailNumber" : "N122XA"
+    },
+    "16" : {
+      "aircraftID" : "16",
+      "tailNumber" : "N106XA"
+    },
+    "17" : {
+      "aircraftID" : "17",
+      "tailNumber" : "N108XA"
+    },
+    "18" : {
+      "aircraftID" : "18",
+      "tailNumber" : "N111XA"
+    },
+    "19" : {
+      "aircraftID" : "19",
+      "tailNumber" : "N114XA"
+    },
+    "20" : {
+      "aircraftID" : "20",
+      "tailNumber" : "N115XA"
+    },
+    "21" : {
+      "aircraftID" : "21",
+      "tailNumber" : "N112XA"
+    },
+    "22" : {
+      "aircraftID" : "22",
+      "tailNumber" : "N116XA"
+    },
+    "23" : {
+      "aircraftID" : "23",
+      "tailNumber" : "N117XA"
+    },
+    "24" : {
+      "aircraftID" : "24",
+      "tailNumber" : "N118XA"
+    },
+    "25" : {
+      "aircraftID" : "25",
+      "tailNumber" : "N123XA"
+    },
+    "26" : {
+      "aircraftID" : "26",
+      "tailNumber" : "N124XA"
+    },
+    "27" : {
+      "aircraftID" : "27",
+      "tailNumber" : "N125XA"
+    },
+    "30" : {
+      "aircraftID" : "30",
+      "tailNumber" : "NG550D"
+    },
+    "31" : {
+      "aircraftID" : "31",
+      "tailNumber" : "LJ60D"
+    },
+    "32" : {
+      "aircraftID" : "32",
+      "tailNumber" : "N126XA"
+    },
+    "33" : {
+      "aircraftID" : "33",
+      "tailNumber" : "N127XA"
+    },
+    "34" : {
+      "aircraftID" : "34",
+      "tailNumber" : "N133XA"
+    },
+    "35" : {
+      "aircraftID" : "35",
+      "tailNumber" : "N128XA"
+    },
+    "36" : {
+      "aircraftID" : "36",
+      "tailNumber" : "NG550F"
+    },
+    "37" : {
+      "aircraftID" : "37",
+      "tailNumber" : "DO328Z"
+    },
+    "39" : {
+      "aircraftID" : "39",
+      "tailNumber" : "N141XA"
+    },
+    "40" : {
+      "aircraftID" : "40",
+      "tailNumber" : "GLF4"
+    },
+    "41" : {
+      "aircraftID" : "41",
+      "tailNumber" : "G4SP"
+    },
+    "42" : {
+      "aircraftID" : "42",
+      "tailNumber" : "ADF2LX"
+    },
+    "43" : {
+      "aircraftID" : "43",
+      "tailNumber" : "GLF5"
+    },
+    "44" : {
+      "aircraftID" : "44",
+      "tailNumber" : "ADG300"
+    },
+    "45" : {
+      "aircraftID" : "45",
+      "tailNumber" : "N129XA"
+    },
+    "46" : {
+      "aircraftID" : "46",
+      "tailNumber" : "N130XA"
+    },
+    "56" : {
+      "aircraftID" : "56",
+      "tailNumber" : "N123AD"
+    },
+    "57" : {
+      "aircraftID" : "57",
+      "tailNumber" : "N124AD"
+    },
+    "59" : {
+      "aircraftID" : "59",
+      "tailNumber" : "921000"
+    },
+    "60" : {
+      "aircraftID" : "60",
+      "tailNumber" : "C75BD"
+    },
+    "61" : {
+      "aircraftID" : "61",
+      "tailNumber" : "922000"
+    },
+    "62" : {
+      "aircraftID" : "62",
+      "tailNumber" : "923000"
+    },
+    "63" : {
+      "aircraftID" : "63",
+      "tailNumber" : "NXGEN"
+    },
+    "201" : {
+      "aircraftID" : "201",
+      "tailNumber" : "N142XA"
+    },
+    "202" : {
+      "aircraftID" : "202",
+      "tailNumber" : "N143XA"
+    },
+    "231" : {
+      "aircraftID" : "231",
+      "tailNumber" : "N135XA"
+    },
+    "233" : {
+      "aircraftID" : "233",
+      "tailNumber" : "ADGLGW"
+    },
+    "236" : {
+      "aircraftID" : "236",
+      "tailNumber" : "90015"
+    },
+    "2977" : {
+      "aircraftID" : "2977",
+      "tailNumber" : "760168"
+    },
+    "3112" : {
+      "aircraftID" : "3112",
+      "tailNumber" : "760163"
+    },
+    "3201" : {
+      "aircraftID" : "3201",
+      "tailNumber" : "763239"
+    },
+    "4141" : {
+      "aircraftID" : "4141",
+      "tailNumber" : "830499"
+    },
+    "4373" : {
+      "aircraftID" : "4373",
+      "tailNumber" : "830497"
+    },
+    "4374" : {
+      "aircraftID" : "4374",
+      "tailNumber" : "731218"
+    },
+    "4696" : {
+      "aircraftID" : "4696",
+      "tailNumber" : "830498"
+    },
+    "4904" : {
+      "aircraftID" : "4904",
+      "tailNumber" : "731217"
+    },
+    "5250" : {
+      "aircraftID" : "5250",
+      "tailNumber" : "830494"
+    },
+    "5294" : {
+      "aircraftID" : "5294",
+      "tailNumber" : "731214"
+    },
+    "5295" : {
+      "aircraftID" : "5295",
+      "tailNumber" : "830495"
+    },
+    "5296" : {
+      "aircraftID" : "5296",
+      "tailNumber" : "760165"
+    },
+    "5603" : {
+      "aircraftID" : "5603",
+      "tailNumber" : "760171"
+    },
+    "6002" : {
+      "aircraftID" : "6002",
+      "tailNumber" : "830496"
+    },
+    "6173" : {
+      "aircraftID" : "6173",
+      "tailNumber" : "731216"
+    },
+    "6725" : {
+      "aircraftID" : "6725",
+      "tailNumber" : "N1903W"
+    },
+    "8582" : {
+      "aircraftID" : "8582",
+      "tailNumber" : "N1911W"
+    },
+    "8882" : {
+      "aircraftID" : "8882",
+      "tailNumber" : "760160"
+    },
+    "9968" : {
+      "aircraftID" : "9968",
+      "tailNumber" : "731208"
+    },
+    "9974" : {
+      "aircraftID" : "9974",
+      "tailNumber" : "760164"
+    },
+    "13186" : {
+      "aircraftID" : "13186",
+      "tailNumber" : "N1905W"
+    }
+  },
+  "tailOfInterest" : "None",
+  "userID" : "3",
+  "userName" : "ca1",
+  "userType" : "admin"
+}

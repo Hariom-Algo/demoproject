@@ -1,0 +1,30 @@
+<div class="columns box">
+  <div class="column is-3 is-offset-3">
+    <!-- <select #select multiple class="selectCss" style="display: none;"(change)="change($event.target.options)"> -->
+    <!-- <\!-- <option *ngFor="let item of companyTails | async; let i=index" [value]="item"> -\-> -->
+    <!-- <\!--   {{item}} -\-> -->
+    <!-- <\!-- </option> -\-> -->
+    <!-- </select> -->
+    <!-- <select  #select2 multiple class="selectCss" (change)="change($event.target.options)" [value]="item"> -->
+    <!-- <option *ngFor="let item of array" [value]="item"> -->
+    <!--   {{item}} -->
+    <!-- </option> -->
+    <!-- </select> -->
+
+  </div>
+  <div class="column is-2">
+    <span style="display: inline-block; width: 70px;  vertical-align: top;">
+        <a class="button is-success marginUPdown" style="width: 75px;" (click)="doAdd()"> <i class="fa fa-arrow-right"></i></a>
+        <a class="button is-success " style="width: 75px;" (click)="doRemove()"> <i class="fa fa-arrow-left"></i></a>
+    </span>
+  </div>
+
+  <div class="column is-4">
+    <select #select1 multiple class="selectCss" (change)="changeTails($event.target.options)">
+    <option *ngFor="let tail of tailsOfInt ; let i=index" [value]="tail">
+      {{tail}}
+    </option>
+    </select>
+
+  </div>
+</div>

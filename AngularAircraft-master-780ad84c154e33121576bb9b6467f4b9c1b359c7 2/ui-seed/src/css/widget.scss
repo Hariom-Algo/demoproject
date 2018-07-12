@@ -1,0 +1,160 @@
+.widget-column{
+  display: flex;
+  flex-direction: column;
+  /* background-color: white; */
+  width: 100%;
+  align-items: center;
+  padding: 1em;
+}
+
+p-listbox{
+  .ui-listbox{
+    overflow-y: scroll;
+    height: 14em;
+    width: 100%;
+  }
+  .ui-listbox-list{
+    font:$family-sans-serif;
+  }
+  .ui-listbox {
+    padding: .25em;
+  }
+
+  .ui-listbox .ui-listbox-list-wrapper {
+    overflow: auto
+  }
+
+  .ui-listbox .ui-listbox-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+  }
+
+  .ui-listbox .ui-listbox-item {
+    padding: .25em;
+    border: 0 none;
+    cursor: pointer;
+    font-weight: normal;
+    margin-bottom: 1px
+  }
+
+  .ui-listbox .ui-listbox-item>span {
+    vertical-align: middle
+  }
+
+  .ui-listbox .ui-listbox-item:last-child {
+    margin-bottom: 0
+  }
+
+  .ui-listbox.ui-state-disabled .ui-listbox-item {
+    cursor: default
+  }
+
+  .ui-listbox-header {
+    margin-bottom: .3em;
+    padding: .125em .2em;
+    position: relative
+  }
+
+  .ui-listbox-header .ui-chkbox {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer
+  }
+
+  .ui-listbox-header .ui-listbox-filter-container {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 100%
+  }
+
+  .ui-listbox-header.ui-listbox-header-w-checkbox .ui-listbox-filter-container {
+    width: calc(100% - 2em)
+  }
+
+  .ui-listbox-header .ui-listbox-filter-container .fa {
+    position: absolute;
+    top: .25em;
+    left: .25em
+  }
+
+  .ui-listbox-header .ui-inputtext {
+    padding: .125em .125em .125em 1.25em;
+    width: 100%
+  }
+
+  .ui-listbox-footer {
+    padding: .125em .2em
+  }
+  .ui-inputtext {
+    background: #fff;
+    color: #222;
+    transition: .2s
+  }
+
+  .ui-inputtext.ui-state-focus,.ui-inputtext:focus {
+    box-shadow: 0 0 5px #1f89ce
+  }
+
+  .ui-inputswitch-on {
+    background: #186ba0!important;
+    color: #fff!important
+  }
+
+  .ui-widget :active {
+    outline: none
+  }
+
+  .ui-widget-content {
+    border: 1px solid #d5d5d5;
+    background: #fff;
+    color: #222;
+  }
+
+  .ui-widget-content a {
+    color: #222
+  }
+
+  .ui-widget-header {
+    border: 1px solid #d9d9d9;
+    background: #f6f7f9;
+    color: #1b1d1f;
+    font-weight: 400
+  }
+
+  .ui-widget-header a {
+    color: #1b1d1f
+  }
+
+  .ui-widget-overlay {
+    background: #666;
+    opacity: .5;
+    filter: Alpha(Opacity=50)
+  }
+  .ui-listbox .ui-listbox-header .ui-listbox-filter-container .fa {
+    color: #222222; }
+  .ui-listbox:not(.ui-state-disabled) .ui-listbox-item:not(.ui-state-highlight):hover {
+    border-color: #c0c0c0;
+    background: #eeeeee;
+    color: #212121; }
+    .ui-listbox:not(.ui-state-disabled) .ui-listbox-item:not(.ui-state-highlight):hover a {
+      color: #212121; }
+  .ui-listbox.ui-state-disabled .ui-chkbox-box:not(.ui-state-active):hover {
+    border-color: #d6d6d6;
+    background: #ffffff;
+    color: #555555; }
+  .ui-state-highlight {
+    border-color: #156090;
+    background: #186ba0;
+    color: #FFFFFF; }
+    .ui-state-highlight a {
+      color: #FFFFFF; }
+  
+  .ui-state-focus {
+    border-color: #c0c0c0;
+    background: #eeeeee;
+    color: #212121; }
+    .ui-state-focus a {
+      color: #212121; }
+}

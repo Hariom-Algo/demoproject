@@ -1,0 +1,117 @@
+{
+  "userID" : "3",
+  "widgets" : {
+    "-Kly3S_gC2a42U4sXYZH" : {
+      "position" : {
+        "desktop" : {
+          "x" : 0,
+          "y" : 0
+        },
+        "laptop" : {
+          "x" : 0,
+          "y" : 0
+        },
+        "phone" : {
+          "x" : 0,
+          "y" : 0
+        },
+        "tablet" : {
+          "x" : 0,
+          "y" : 0
+        }
+      },
+      "size" : {
+        "cols" : 2,
+        "rows" : 2
+      },
+      "type" : "plan-app-usage",
+      "widget_options" : {
+        "planID" : "166859"
+      }
+    },
+    "-Kly3S_hyQLMNhh0lSog" : {
+      "position" : {
+        "desktop" : {
+          "x" : 2,
+          "y" : 0
+        },
+        "laptop" : {
+          "x" : 2,
+          "y" : 0
+        },
+        "phone" : {
+          "x" : 0,
+          "y" : 2
+        },
+        "tablet" : {
+          "x" : 2,
+          "y" : 0
+        }
+      },
+      "size" : {
+        "cols" : 2,
+        "rows" : 2
+      },
+      "type" : "plan-usage",
+      "widget_options" : {
+        "planID" : "166859"
+      }
+    },
+    "-Kly3S_hyQLMNhh0lSoh" : {
+      "position" : {
+        "desktop" : {
+          "x" : 4,
+          "y" : 0
+        },
+        "laptop" : {
+          "x" : 4,
+          "y" : 0
+        },
+        "phone" : {
+          "x" : 0,
+          "y" : 6
+        },
+        "tablet" : {
+          "x" : 0,
+          "y" : 2
+        }
+      },
+      "size" : {
+        "cols" : 2,
+        "rows" : 2
+      },
+      "type" : "plan-app-usage",
+      "widget_options" : {
+        "planID" : "166859"
+      }
+    },
+    "-Kly3S_iDC4zq6gS_MyG" : {
+      "position" : {
+        "desktop" : {
+          "x" : 6,
+          "y" : 0
+        },
+        "laptop" : {
+          "x" : 0,
+          "y" : 2
+        },
+        "phone" : {
+          "x" : 0,
+          "y" : 4
+        },
+        "tablet" : {
+          "x" : 2,
+          "y" : 2
+        }
+      },
+      "size" : {
+        "cols" : 2,
+        "rows" : 2
+      },
+      "type" : "plan-usage",
+      "widget_options" : {
+        "planID" : "142420-1"
+      }
+    }
+  }
+}

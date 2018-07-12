@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Dashboard</title>
+  <base href="/">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="msapplication-starturl" content="/"/>
+  <meta name="theme-color" content="#F48C5B"/>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="asstes/favicon-16x16.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+  <div class="mock-nav" style="height:4.25rem; background-color:#005288;">
+      <img class="arinc-logo"
+	   src="assets/images/arinc_direct_rockwell_sm.png"
+	   alt="Arinc Direct"
+	   style="height:30px; width:170px; margin-top:1em; margin-left:1em;"
+	   >
+  </div> 
+  <div class="loading modal is-active" style="background:linear-gradient(to top, #bec5cb, #6f798d);">
+    <div class="modal-background" style="background-color:transparent;"></div>
+    <div class="modal-content">
+      <div class="spinner">
+	<div class="rect"></div>
+	<div class="rect2"></div>
+	<div class="rect3"></div>
+      </div>    
+    </div>
+  </div>
+<div class="loading" style="background:linear-gradient(to top, #bec5cb, #6f798d); z-index:-1; top:5em;height:100%; width:100%; "></div>
+  <app-root></app-root>
+</body>
+<!-- this is for the addition of a service worker for a progressive webapp -->
+<script>
+  if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js')
+  .then((registration) => {
+  console.log('Dashboard Service Worker registered');
+  })
+  .catch((err) => {
+  console.log('Dashboard Service Worker Error', err);
+  });
+  }
+</script>
+<noscript>Your browser does not support JavaScript!</noscript>
+
+</html>

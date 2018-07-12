@@ -1,0 +1,115 @@
+
+
+// Global variables
+$primary : #005288;
+$info:#0D47A1;
+
+// Antonio $blue-hue:#7FB6D9;
+$blue-hue:#4188e7;
+// Antonio $success:#2E7D32;
+$success:#b1bc4f;
+$warn:#FFD600;
+// Antonio $danger:#B71C1C;
+$danger:#e3403d;
+// Antonio $dark-gray:#383E42;
+$dark-gray:#231f20;
+
+
+$button-focus-border: black;
+$button-active:black;
+
+.is-blue-hue{
+  color:$blue-hue;
+  background:transparent;
+  border-color:$blue-hue
+}
+
+
+$grey: #c4c4c6;
+$grey-light:   lighten(#c4c4c6, 10%);
+$grey-lighter: lighten(#c4c4c6, 20%);
+// Antonio $grey: #919aa1;
+//$grey-light:   lighten(#919aa1, 10%);
+//$grey-lighter: lighten(#919aa1, 20%);
+
+$green:        #4BBF73;
+$blue:         #1F9BCF;
+$red:          #d9534f;
+
+$primary: #222 !default;
+
+$family-sans-serif: "Nunito Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$body-size: 14px;
+
+$radius: 0;
+$radius-small: $radius;
+$grey-darker:  hsl(0, 0%, 21%) !default
+$dark: $grey-darker !default
+$size-4: 1.5rem !default;
+$size-large:$size-4;
+$white:        hsl(0, 0%, 100%) !default;
+$white-ter:    hsl(0, 0%, 96%) !default;
+$light: $white-ter !default;
+
+// Global variables
+$primary : #005288;
+$info:#0D47A1;
+
+// Antonio $blue-hue:#7FB6D9;
+$blue-hue:#4188e7;
+// Antonio $success:#2E7D32;
+$success:#b1bc4f;
+$warn:#FFD600;
+$warning:$warn;
+
+// Antonio $danger:#B71C1C;
+$danger:#e3403d;
+// Antonio $dark-gray:#383E42;
+$dark-gray:#231f20;
+$danger:#B71C1C;
+$button-focus-border: black;
+$button-active:black;
+
+$modal-background: rgba(10, 10, 10, 0.86);
+
+// mixin to set responsive font move somewhere else
+@mixin responsive-font($responsive, $min, $max: false, $fallback: false) {
+  $responsive-unitless: $responsive / ($responsive - $responsive + 1);
+  $dimension: if(unit($responsive) == 'vh', 'height', 'width');
+  $min-breakpoint: $min / $responsive-unitless * 100;
+  
+  @media (max-#{$dimension}: #{$min-breakpoint}) {
+    font-size: $min;
+  }
+  
+  @if $max {
+    $max-breakpoint: $max / $responsive-unitless * 100;
+    
+    @media (min-#{$dimension}: #{$max-breakpoint}) {
+      font-size: $max;
+    }
+  }
+  
+  @if $fallback {
+    font-size: $fallback;
+  }
+  
+  font-size: $responsive;
+}
+
+
+.small-unit{
+  margin-left: 0.5em;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.single-data-row{
+  display:flex;
+  justify-content:space-between;
+  text-align: center;
+  margin-top:-1em;
+}
+
+
+$widget-icon:#c4c4c6;
